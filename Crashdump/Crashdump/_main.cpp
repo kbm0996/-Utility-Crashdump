@@ -1,5 +1,3 @@
-#include "CrashDump.h"
-
 void main()
 {
 	int *Crash = nullptr;

@@ -45,7 +45,7 @@ public:
 		return &Inst;
 	}
 
-	// 의도적인 Crash. Dump내려고 Crash 낸 부분을 찾기 위해 Rapping한 함수
+	// 의도적인 Crash. Dump내려고 Crash 낸 부분을 찾기 위해 감싼 함수
 	static void Crash()
 	{
 		int *p = nullptr;
